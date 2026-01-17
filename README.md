@@ -9,6 +9,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Production Ready](https://img.shields.io/badge/status-production_ready-success)](https://github.com/whispem/minikv)
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)](.github/workflows/ci.yml)
+[![CodSpeed](https://img.shields.io/endpoint?url=https://codspeed.io/badge.json)](https://codspeed.io/AvalancheHQ/minikv?utm_source=badge)
 
 ---
 
@@ -46,7 +47,7 @@ minikv v0.6.0 brings enterprise-grade security and multi-tenancy:
 
 ## 🤔 What is minikv?
 
-**minikv** is a distributed key-value store written in [Rust](https://www.rust-lang.org/), designed for simplicity, speed, and reliability—whether you’re learning, scaling, or deploying in production.
+**minikv** is a distributed key-value store written in [Rust](https://www.rust-lang.org/), designed for simplicity, speed, and reliability—whether you're learning, scaling, or deploying in production.
 
 - **Raft** for cluster consensus and leader election
 - **Two-Phase Commit** for safe distributed writes

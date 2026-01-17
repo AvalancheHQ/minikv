@@ -83,7 +83,7 @@ tonic-build = "0.12"
 
 [dev-dependencies]
 tempfile = "3.10"
-criterion = { version = "0.5", features = ["html_reports"] }
+criterion = { version = "4.2.1", package = "codspeed-criterion-compat" }
 tokio-test = "0.4"
 
 [features]
@@ -103,6 +103,10 @@ path = "src/bin/volume.rs"
 [[bin]]
 name = "minikv"
 path = "src/bin/cli.rs"
+
+[[bench]]
+name = "kv_operations"
+harness = false
 
 [profile.release]
 opt-level = 3
