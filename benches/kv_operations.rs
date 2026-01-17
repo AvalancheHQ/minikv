@@ -1,7 +1,5 @@
 use criterion::{black_box, criterion_group, criterion_main, BenchmarkId, Criterion, Throughput};
-use minikv::common::hash::{
-    blake3_hash, hrw_hash, select_replicas, shard_key, ConsistentHashRing,
-};
+use minikv::common::hash::{blake3_hash, hrw_hash, select_replicas, shard_key, ConsistentHashRing};
 
 fn bench_blake3_hash(c: &mut Criterion) {
     let mut group = c.benchmark_group("blake3_hash");
